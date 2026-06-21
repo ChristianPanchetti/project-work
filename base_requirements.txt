@@ -1,4 +1,5 @@
-numpy
-networkx
-matplotlib
 icecream
+numpy
+matplotlib
+networkx
+tqdm

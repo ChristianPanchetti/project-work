@@ -77,5 +77,3 @@ class Problem:
         size = [100] + [self._graph.nodes[n]['gold'] for n in range(1, len(self._graph))]
         color = ['red'] + ['lightblue'] * (len(self._graph) - 1)
         return nx.draw(self._graph, pos, with_labels=True, node_color=color, node_size=size)
-P = Problem(10, density=0.2, alpha=1, beta=1)
-P.plot()
